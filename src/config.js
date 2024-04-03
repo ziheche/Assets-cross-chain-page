@@ -1,5 +1,9 @@
-export const CONTRACT_ADDRESS = '0x062aF4E4527565c6F486f7f5b080006397402f2d'
 
+/* const abiCfgFile = require('../../../artifacts/contracts/AssetsCrossChainBridge.sol/AssetsCrossChainBridge.json')
+const contractCfgFile = require('../../../config/alt-config.json')
+export const CONTRACT_ADDRESS = contractCfgFile.sendUniversalPacket.optimism.portAddr;
+export const ABI = abiCfgFile.abi; */
+export const CONTRACT_ADDRESS = '0x062aF4E4527565c6F486f7f5b080006397402f2d'
 export const ABI = [
     {
       "inputs": [
